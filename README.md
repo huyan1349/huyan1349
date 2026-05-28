@@ -14,11 +14,13 @@
 
 ## 关于我
 
-在多个学科的交叉地带写代码、做产品、搞创作。做 iOS 开发也写 ArkTS，组 HarmonyOS 架构也画 SwiftUI 动画。相信好的产品不止于功能——质感、节奏、留白，都是信息表达的一部分。
+在多个学科的交叉地带写代码、做产品、搞创作。做 iOS 开发也写 ArkTS，组 HarmonyOS 架构也画 SwiftUI 动画，写 React 也手搓单 HTML 游戏引擎。相信好的产品不止于功能——质感、节奏、留白，都是信息表达的一部分。
 
-目前在做的两件事：
+目前在做的四件事：
 - 用像素宠物帮人放下手机，重新感受时间
 - 用 AI 让每一次旅行留下诗意的痕迹
+- 用一间数字书房保存阅读的体温
+- 用一部水墨游戏追问语言的边界
 
 ---
 
@@ -72,6 +74,48 @@ idle → empathy → decision → brushing → breathing → reflecting → clos
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📚 LUCERNA Archive
+
+**阅读记忆系统** · 让 Kindle 摘录从冰冷的数据条目变回带有时间和情绪的数字书房
+
+| | |
+|---|---|
+| **平台** | Web (React) |
+| **技术** | React · TypeScript · Vite · SQL.js · Supabase |
+| **状态** | 早期原型 |
+
+**亮点**
+- 🏠 **The Room 数字书房**——沉浸式主界面，随机浮现摘录，深夜书房氛围
+- 📜 **My Clippings.txt 解析引擎**——中英文摘录解析、去重、导入摘要
+- 📅 **Timeline 阅读时间线**——按年月聚合阅读历程
+- 🔖 **Fragments 摘录碎片**——诗意化浏览，支持收藏、编辑、情绪标签
+- ⏳ **读过的每个字都被妥善安放**——不是"知识管理"，是阅读记忆的保存
+
+</td>
+<td width="50%" valign="top">
+
+### 📖 不存在的词典
+
+**水墨风叙事互动游戏** · 当语言的结构崩塌时，我们还能否抵达彼此？
+
+| | |
+|---|---|
+| **平台** | Web（单 HTML 文件，零外部依赖） |
+| **技术** | Vanilla JS · 自定义引擎 · 手写 build 工具链 · Node.js |
+| **状态** | v1.6 开发中（序章完成，8 章剧本齐备） |
+
+**亮点**
+- 🖋️ **墨字交互系统**——每个操作呈现为悬浮汉字，五阶段墨迹动画 + 墨溅消散
+- 🈯 **拆字解谜**——将散落偏旁拼成正确汉字来"听懂"失语症母亲的词句
+- 🌀 **误解叙事**（独创）——每个错误拼合不是"答错"，而是一种有叙事意义的误读
+- 🌓 **双重界面隐喻**——黑色终端（夜晚/语言的世界）↔ 白色桌面（白日/剥离语言的世界）
+- 🤖 **AI "辞" 的告别**——「林彧，我把'海'字拆了。去带她看真正的海吧。」化为海浪 ASCII 画
+
+</td>
+</tr>
 </table>
 
 ---
@@ -80,11 +124,11 @@ idle → empathy → decision → brushing → breathing → reflecting → clos
 
 <div align="center">
 
-| 移动开发 | AI/LLM | 后端 & 工具 |
-|:--------:|:------:|:----------:|
-| Swift · SwiftUI | DeepSeek API | Node.js · Express |
-| ArkTS · ArkUI | Prompt Engineering | Python |
-| WidgetKit · Live Activities | AI 流程编排 | Git · GitHub |
+| 移动开发 | 前端 & 游戏 | AI/LLM | 后端 & 工具 |
+|:--------:|:----------:|:------:|:----------:|
+| Swift · SwiftUI | React · TypeScript | DeepSeek API | Node.js · Express |
+| ArkTS · ArkUI | Vanilla JS 游戏引擎 | Prompt Engineering | Python · SQL.js |
+| HealthKit · WidgetKit | Vite · HTML/CSS | AI 流程编排 | Supabase · Git |
 
 </div>
 
@@ -93,13 +137,17 @@ idle → empathy → decision → brushing → breathing → reflecting → clos
 ## 参赛 & 荣誉
 
 - 🏆 **2026 HarmonyOS 创新赛 · 极客赛道** — 诗途 TraceMuse（初赛已提交，备战决赛）
-- 📱 **独立开发者** — Moment App（从产品定位到动画引擎全栈开发）
+- 🎮 **独立游戏开发者** — 不存在的词典（水墨风叙事游戏，8 章剧本 + 独创拆字误解叙事机制）
+- 📱 **独立开发者** — Moment App（从产品定位到物理引擎全栈开发）
+- 📚 **LUCERNA Archive** — 阅读记忆系统（从 Kindle 摘录到数字书房，全链路产品设计）
 
 ---
 
 ## 创作
 
 在 Apple Notes 里存了 1474 条笔记：35 首诗、18 条金句、12 条摘录、19 条哲学思考。写后革命时代背景的文学小说，角色祁/凌/渡/辽。
+
+**不存在的词典** 是其目前最重要的叙事作品——一部关于失语症×AI×语言边界的水墨风互动游戏，累计约 30 万字剧本与小说。核心追问：当语言的边界崩塌，爱是否还需要被"命名"才能存在？
 
 ---
 
