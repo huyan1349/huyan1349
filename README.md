@@ -1,6 +1,6 @@
 <div align="center">
 
-# 胡砚 · Huyan
+# 刘峥岩 · Huyan
 
 **交叉学科开发者 · 华中师范大学在读**
 
@@ -152,6 +152,11 @@ idle → empathy → decision → brushing → breathing → reflecting → clos
 ---
 
 <div align="center">
+
+### 统计
+
+<img src="https://github-readme-stats.vercel.app/api?username=huyan1349&show_icons=true&theme=default&hide_title=true&hide_rank=true&count_private=true&line_height=24" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=huyan1349&layout=compact&langs_count=6&theme=default" />
 
 **[GitHub](https://github.com/huyan1349)** · **[Email](mailto:huyanxius@gmail.com)**
 
