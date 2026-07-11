@@ -2,9 +2,9 @@
 
 # 刘峥岩 · Huyan
 
-**让人失眠的故事,让机器不眠的代码**
+**Stories for humans, code for machines.**
 
-*Stories for humans, code for machines.*
+华中师范大学本科生
 
 </div>
 
