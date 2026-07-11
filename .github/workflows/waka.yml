@@ -2,7 +2,7 @@ name: WakaTime
 
 # 目前只留手动触发。启用步骤:
 # 1. 注册 https://wakatime.com 并在常用编辑器装 WakaTime 插件
-# 2. 把 API key 存成仓库 secret:gh secret set WAKATIME_API_KEY -R huyan1349/huyan1349
+# 2. 把 API key 存成仓库 secret:gh secret set WAKATIME_API_KEY -R huyanxius/huyanxius
 # 3. 解开 schedule 注释,每天把一周编码时长写进 README 的 waka 标记之间
 on:
   workflow_dispatch:
