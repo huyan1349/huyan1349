@@ -24,11 +24,11 @@ def write(draft):
 
 ## 项目
 
-- **[MultiPublish](https://github.com/huyan1349/MultiPublish)** — 一次编辑,多平台发布。Chrome 扩展,七牛云 72 小时限时赛作品。
-- **[wander-island](https://github.com/huyan1349/wander-island)** — 叙事驱动的 3D 生态沙盒:在云海碎片上培育一座会呼吸的岛。
-- **[iturner](https://github.com/huyan1349/iturner)** — 给 iPhone 镜像自动翻页的 macOS 工具,为躺着读书的人写的。
-- **[novel-to-script](https://github.com/huyan1349/novel-to-script)** — 把小说转成结构化 YAML 剧本,文学递给工程的一次握手。
-- **[Archive-web](https://github.com/huyan1349/Archive-web)** — LUCERNA,保存阅读人生的数字书房。
+- **[MultiPublish](https://github.com/huyanxius/MultiPublish)** — 一次编辑,多平台发布。Chrome 扩展,七牛云 72 小时限时赛作品。
+- **[wander-island](https://github.com/huyanxius/wander-island)** — 叙事驱动的 3D 生态沙盒:在云海碎片上培育一座会呼吸的岛。
+- **[iturner](https://github.com/huyanxius/iturner)** — 给 iPhone 镜像自动翻页的 macOS 工具,为躺着读书的人写的。
+- **[novel-to-script](https://github.com/huyanxius/novel-to-script)** — 把小说转成结构化 YAML 剧本,文学递给工程的一次握手。
+- **[Archive-web](https://github.com/huyanxius/Archive-web)** — LUCERNA,保存阅读人生的数字书房。
 
 <!-- 有公开博客后启用 .github/workflows/blog-posts.yml,近期文章会自动列在这里 -->
 <!-- BLOG-POST-LIST:START -->
