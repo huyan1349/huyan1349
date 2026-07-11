@@ -1,0 +1,21 @@
+name: Blog posts
+
+# 目前只留手动触发。有公开博客后:
+# 1. 在下面 feed_list 里填 RSS 地址
+# 2. 解开 schedule 注释,每天自动把近期文章同步进 README 的 BLOG-POST-LIST 标记之间
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "0 1 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "" # TODO: 例如 https://example.com/feed.xml
+          max_post_count: 5
