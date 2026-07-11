@@ -1,0 +1,23 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 16 * * *" # 每天北京时间 0 点更新
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  isocalendar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: huyan1349
+          filename: metrics.isocalendar.svg
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          config_timezone: Asia/Shanghai

@@ -40,8 +40,7 @@ def write(draft):
 
 <div align="center">
 
-<!-- 想换主题:把文件名改成 profile-night-rainbow.svg / profile-night-green.svg / profile-season-animate.svg 等,目录里都有 -->
-<img src="./profile-3d-contrib/profile-green-animate.svg" alt="三维贡献图" width="780">
+<img src="./metrics.isocalendar.svg" alt="半年贡献日历" width="600">
 
 <sub>会写的东西越来越多,想删的也是。</sub>
 
